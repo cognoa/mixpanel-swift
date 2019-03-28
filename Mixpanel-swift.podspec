@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Mixpanel, Inc' => 'support@mixpanel.com' }
   s.source       = { :git => 'https://github.com/mixpanel/mixpanel-swift.git',
                      :tag => "v#{s.version}" }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.2'
   s.ios.resources = ['Mixpanel/**/*.{png,xib,storyboard}']
   s.ios.frameworks = 'UIKit', 'Foundation', 'CoreTelephony'
   s.ios.pod_target_xcconfig = {
